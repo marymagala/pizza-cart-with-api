@@ -20,6 +20,8 @@ document.addEventListener('alpine:init', () => {
             this.cartId = result.data.cart_code;
           });
       },
+
+      
       createCart() {
         return axios
         .get('https://pizza-cart-api.herokuapp.com/api/pizza-cart/create?username=' + this.username)
