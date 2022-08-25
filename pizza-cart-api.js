@@ -59,7 +59,6 @@ postfeaturedPizzas() {
       payNow: false,
       paymentAmount: 0,
       paymentMessage: '',
-      showCarts:false,
 
 
       add(pizza) {
